@@ -26,3 +26,6 @@ const fruitProcessor = function (apple, orange) {
 
 const fruitJuice = fruitProcessor(4, 5);
 console.log(fruitJuice);
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
