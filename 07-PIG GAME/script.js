@@ -55,7 +55,7 @@ btnRoll.addEventListener("click", function () {
 
     // 3. Check for rolled 1
     if (dice !== 1) {
-      // Add dice to current score
+      // Add dice to current score number
       currentScore += dice;
       document.getElementById(`current--${activePlayer}`).textContent =
         currentScore;
